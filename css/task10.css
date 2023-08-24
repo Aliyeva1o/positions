@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:greenyellow;
+    padding: 15px;
+}
+.main{
+    position: relative;
+    width: 100%;
+}
+.par-1{
+    height: 300px;
+    background-color: rgb(184, 184, 184);
+    width: 60%;
+}
+.par-2{
+    height: 300px;
+    background-color: rgb(223, 161, 181);
+    width: 20%;
+    position: absolute;
+    left: 60%;
+    top: 0;
+}
+.par-3{
+    height: 300px;
+    background-color:aquamarine;
+    width: 20%;
+    position: absolute;
+    left:80%;
+    top: 0;
+}
+.footer{
+    background-color: greenyellow;
+    padding: 15px;
+}
+

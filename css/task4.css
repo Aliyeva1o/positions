@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fixed {
+    padding: 20px;
+    background-color: palevioletred;
+    width: 40%;
+    position: fixed;
+    top: 30px;
+}
+.par-1 {
+    width: 40%;
+    float: left;
+}
+.par-2{
+    width: 50%;
+    float: right;
+}
+.sticky {
+    padding: 20px;
+    background-color: violet;
+    width: auto;
+    position: sticky;
+    top: 0;
+}

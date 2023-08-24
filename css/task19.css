@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 10px solid black;
+    width: 1100px;
+    height: 600px;
+  margin: 30px auto; 
+  position: relative;
+}
+.first-row{
+    height: 150px;
+    width: 700px;
+    background-color: rgb(161, 161, 210);
+     margin: 30px auto; 
+}
+.static-1{
+    width: 150px;
+    height: 150px;
+    background-color: bisque;
+    display: inline-block;
+    position: static;
+}
+.relative{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(93, 103, 174);
+    display: inline-block;
+    position: relative;
+    right: 170px;
+    bottom: 20px;
+}
+.dotted{
+    width: 150px;
+    height: 150px;
+    border: 2px dotted black;
+    display: inline-block;
+    margin-left: 80px;
+    position: static;
+
+}
+.static-2{
+    width: 150px;
+    height: 150px;
+    background-color: bisque;
+    display: inline-block;
+    position: static;
+}
+.second-row{
+    height: 150px;
+    width: 700px;
+    background-color: rgb(161, 161, 210);
+     margin: 30px auto; 
+     position: relative;
+    }
+.static-3{
+        width: 150px;
+        height: 150px;
+        background-color: bisque;
+        display: inline-block;
+        position: static;
+        margin-left: 90px;
+    }
+    .static-4{
+        width: 150px;
+        height: 150px;
+        background-color: bisque;
+        display: inline-block;
+        position: static;
+        margin-left: 210px;
+    }
+    .third-row{
+        height: 150px;
+        width: 700px;
+        background-color: rgb(161, 161, 210);
+         margin: 30px auto; 
+         position: relative;
+         }
+    .static-5{
+            width: 150px;
+            height: 150px;
+            background-color: bisque;
+            display: inline-block;
+            position: static;
+            margin-left: 50px;
+        }
+        .fixed{
+            width: 150px;
+            height: 150px;
+            background-color: bisque;
+            display: inline-block;
+            margin-left: 30px;
+            position: fixed;
+            top: bottom 20px;
+
+        }
+        .static-6{
+            width: 150px;
+            height: 150px;
+            background-color: bisque;
+            display: inline-block;
+            position: static;
+            margin-left: 210px;
+        }
+        .absolute{
+            width: 150px;
+            height: 150px;
+            background-color: rgb(255, 166, 0);
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
